@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:#FFCC99 ;">
+    <h3 align="center">Survey Form</h3>
+    <div>
+        <p >If you are interested in purchasing one or more of our products, before ordering please complete some or all of the following survey for our marketing department. Answering any question is optional, and all information will be kept strictly confidential. Thank you very much for your time!</p>
+        <style>
+        p { width: 700px; }
+        </style> 
+        <form action="">
+    </div>
+    <div>
+        <!-- 1. what is your name? -->
+        <label for="">1. What is your name?</label> <br>
+        <input type="text" id="name">
+        <style>
+            #name {width: 200px;}
+        </style>
+    </div>
+    <br>
+    <div>
+        <!-- 2. What is your date of birth?
+ -->
+        <label for="">2. What is your date of birth?
+            <!-- chua xong -->
+        </label> <br>
+        <label class="mt1" for="">Month:</label><input type="month" id="mt">
+        <label class="mt2" for="">Date:</label><input type="date" id="dt">
+        <label class="mt3" for="">Year:</label><input type="datetime" id="yr">
+        <style>
+            .mt1, .mt2, .mt3  { margin-left: 20px;}
+            
+
+        </style>
+    <style> 
+        #mt {width: 100px;}
+        #dt {width: 50px;}
+        #yr {width: 50pt;}
+    </style> 
+    </div>
+    <br>
+    <div>
+        <!-- 3. What is your mailing address (if you would like to have a hard copy of our catalog sent to
+ -->
+        <label for="">
+            3. What is your mailing address (if you would like to have a hard copy of our catalog sent to</label>
+            <input type="text" >
+            <!-- chưa xong -->
+    </div>
+    <br>
+    <div>
+        <!-- 4. What is your email address? -->
+        <label for="">4. What is your email address?
+        </label>
+        <input type="email">
+    </div>
+    <br>
+    <div>
+<!-- 5. Have you viewed our online product catalog? -->
+        <label for="">5. Have you viewed our online product catalog?</label>
+        <!-- <input type="radio"> -->
+    </div>
+    <br>
+    <div>
+        <!--6. If so, what product(s), besides the one you are ordering, might you be interested in purchasing in the future? (Check all that apply.)
+  -->
+        <label for="">6. If so, what product(s), besides the one you are ordering, might you be interested in purchasing in the future? (Check all that apply.)</label>
+        <input type="text">
+    </div>
+    <div>
+        <!-- 7. Do you have any questions, comments or suggestions before proceeding to the Order Form?
+ -->
+<label for="">
+    <br>
+    7. Do you have any questions, comments or suggestions before proceeding to the Order Form?
+</label>
+    </div>
+    <br>
+    <div align="center">
+        <input id="send" type="submit" name="Submit" value="Send form">
+        <input id="clear" type="submit" name="Clear Form" value="Clear Form">
+<style>
+    #send {margin-right: 5px;}
+    #clear {margin-left: 5px;}
+</style>
+    </div>
+</form>
+</body>
+</html>
