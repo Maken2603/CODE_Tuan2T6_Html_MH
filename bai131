@@ -26,6 +26,7 @@
         <div>
             <!-- favorite color -->
             <label for="">Favorite Color:</label> <br>
+            <!-- value input="#000...FF chưa được đề xuất khi viết code" -->
             <input type="color" id="color11" value="#0000FF">  
              <br>
         </div>
@@ -36,7 +37,7 @@
             <input type="date">
         </div>
         <br>
-        <div>
+        <!-- <div align="center"> => này canh giữa view -->
             <input type="submit" name="submit" value="submit">
         </div>
        
