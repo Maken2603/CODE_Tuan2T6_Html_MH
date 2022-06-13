@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <div> 
+            <!-- name -->
+            <label for="">Name:</label> <br>
+            <input type="text" name="" id="">
+        </div> <br>
+        <div>
+            <!-- number phone -->
+            <label for="">Telephone number:</label> <br>
+            <input type="tel">
+        </div> <br>
+        <div>
+            <!-- Email -->
+            <label for="">Email:</label> <br>
+            <input type="email">
+        </div> <br>
+        <div>
+            <!-- favorite color -->
+            <label for="">Favorite Color:</label> <br>
+            <input type="color" id="color11">
+            <style> 
+            #color11 {color: blue;}
+             </style> 
+             <br>
+        </div>
+        <br>
+        <div>
+            <!-- Date of Birth -->
+            <label for="">Date of Birth</label> <br>
+            <input type="date">
+        </div>
+     
+    </form>
+</body>
+</html>
